@@ -1,30 +1,139 @@
 body {
-    background-color:lightsteelblue;
+    background-color:lightgreen;
+    border: 5px solid green;
 }
 .menu-container {
     display: flex;
     margin: 15px;
-    border: 5px solid steelblue;
+    border: 5px solid blue;
+    background-color: skyblue;
     font-size: 20px;
 }
-.home {
-    background-color:rgb(55, 107, 55) ;
+.one {
+    background-color:peachpuff;
+    border: 5px solid rgb(255, 138, 91);
+    margin: 10px;
     padding: 20px;
+    color:rgb(39, 34, 34);
+}
+.two {
+    background-color:peachpuff;
+    border: 5px solid rgb(255, 138, 91);
+    margin: 10px;
+    padding: 0px;
     color:aliceblue;
+    display: flex;
 }
-.search {
-    background-color:rgb(146, 34, 34) ;
+.three {
+    background-color:peachpuff;
+    border: 5px solid rgb(255, 138, 91);
+    margin: 10px;
     padding: 20px;
-    color: aliceblue;
+    color:rgb(39, 34, 34);
 }
-.logout {
-    background-color:rgb(55, 107, 55) ;
-    padding: 20px;
-    color:aliceblue;
-}
-.home,
-.search,
-.logout {
+.one,
+.two,
+.three {
     text-align: center;
     flex: 1;
 }
+.innertwo {
+    flex: 1;
+    border: 3px solid red;
+    background-color: salmon;
+    margin: 3px;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    margin: 15px;
+    border: 5px solid blue;
+    background-color: skyblue;
+    font-size: 20px;
+}
+.foot-one {
+    background-color:rgb(224, 190, 255);
+    border: 5px solid rgb(155, 95, 189);
+    margin: 10px 3px;
+    margin-left: 10px;
+    padding: 20px;
+    color:aliceblue;
+}
+.foot-two {
+    background-color:peachpuff;
+    border: 5px solid rgb(255, 138, 91);
+    margin: 10px 3px;
+    padding: 20px;
+    color:aliceblue;
+}
+.foot-three {
+    background-color:peachpuff;
+    border: 5px solid rgb(255, 138, 91);
+    margin: 10px 3px;
+    padding: 20px;
+    color:aliceblue;
+}
+.foot-four {
+    background-color:rgb(224, 190, 255);
+    border: 5px solid rgb(155, 95, 189);
+    margin: 10px 3px;
+    margin-right: 10px;
+    padding: 20px;
+    color:aliceblue;
+}
+.foot-one,
+.foot-four {
+    text-align: center;
+    flex: 1;
+}
+.foot-two,
+.foot-three {
+    flex: initial;
+    width: 150px;
+    text-align: center;
+}
+
+.body-container {
+    display: flex;
+    margin: 15px;
+    font-size: 20px;
+}
+.body-one {
+    background-color: rgb(245, 162, 151);
+    border: 5px solid rgb(153, 58, 58);
+    height: 380px;
+    margin: 10px;
+    padding: 10px;
+}
+.body-two {
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1;
+    background-color: rgb(245, 162, 151);
+    border: 5px solid rgb(153, 58, 58);
+    margin: 10px;
+    padding: 10px;
+}
+.body-one,
+.body-two {
+    flex: 1;
+}
+.title ,.h1 {
+    text-align: center;
+}
+.body-one ,.p {
+    text-align: justify;
+}
+.img-one {
+    width: 580px;
+    height: 150px;
+  }
+.img-two {
+    width: 580px;
+    height: 120px;
+  }
